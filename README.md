@@ -1,4 +1,4 @@
- When you build an Java application project that has a main class, the IDE
+When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
 files on the projects classpath to your projects dist/lib folder. The IDE
 also adds each of the JAR files to the Class-Path element in the application
@@ -27,7 +27,7 @@ in the Projects window and choose Properties. Then click Run and enter the
 class name in the Main Class field. Alternatively, you can manually type the
 class name in the manifest Main-Class element.
 
-###I. Introduction
+##I. Introduction
 
 With many applications which were written in Java language such as Android 
 applications, Java desktop applications and all JAR libraries will be decoded 
@@ -42,9 +42,9 @@ information data in your application.
 Moreover, this tool provide a function to generate hashkey which is used to 
 sign your application with Facebook (https://developers.facebook.com/)
 
-###II. How to use
+##II. How to use
 
-####1. UI guide
+###1. UI guide
 
 This tool is written in java language, however it using proguard technology to 
 obfuscate source code.
@@ -76,14 +76,14 @@ anywhere.
 
 - Encode button: encode your data in properties file above.
 
-####2. Functions
+###2. Functions
 
 - This tool will be saved last input information (keystore path, password in 
 history.properties..., of course, they are encoded)
 
 - This tool will be work multi-platforms (I hope so): Mac, Windows, Linux
 
-####3. Implement
+###3. Implement
 
 When you encoded your data, please copy encoded.properties (change the name if
 you want), and all in lib folders to your project (gradle, eclipse...)
