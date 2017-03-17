@@ -1,5 +1,7 @@
 **Current version support for Java 8 only, if you get problem with UnsupportedClassVersionError: hashkey/Design : Unsupported major.minor version 52.0. Do please update your java to version 8**
-* If you can not open HashKeyHelper.jar, please open terminal then: chmod +x HashKeyHelper.jar*
+
+* If you can not open HashKeyHelper.jar, please open terminal then: chmod +x HashKeyHelper.jar *
+
 When you build an Java application project that has a main class, the IDE
 automatically copies all of the JAR
 files on the projects classpath to your projects dist/lib folder. The IDE
