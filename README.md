@@ -31,7 +31,7 @@ in the Projects window and choose Properties. Then click Run and enter the
 class name in the Main Class field. Alternatively, you can manually type the
 class name in the manifest Main-Class element.
 
-##I. Introduction
+## I. Introduction
 
 With many applications which were written in Java language such as Android 
 applications, Java desktop applications and all JAR libraries will be decoded 
@@ -46,9 +46,9 @@ information data in your application.
 Moreover, this tool provide a function to generate hashkey which is used to 
 sign your application with Facebook (https://developers.facebook.com/)
 
-##II. How to use
+## II. How to use
 
-###1. UI guide
+### 1. UI guide
 
 This tool is written in java language, however it using proguard technology to 
 obfuscate source code.
@@ -59,9 +59,13 @@ Let me show you how to use it:
 android 
 
 - keytool path: it's in your java home. 
+```
 Mac: /Library/Java/VirtualMachine/{YOUR_CURRENT_VERSION}/Content/Home/bin
+
 Windows: C:/Windows/Programs/Java/{YOUR_CURRENT_VERSION}/bin
+
 Linux: with the same to Java home path ( i do not remember the path, because 
+```
 with all linux we can using and configure java path any where)
 
 - Key password: It's your keystore password
@@ -97,7 +101,7 @@ keystore)
 
 you can get your hashkey of your keystore (used to signed your apk, if debug 
 mode, will be debug.keystore) with the flowing android's code:
-
+```
     public static String getHashKey() {
         Context mAppContext = GlobalApplication.getInstance();
         try {
@@ -117,6 +121,8 @@ mode, will be debug.keystore) with the flowing android's code:
         }
         return null;
     }
+```
+
 Or using the hashkey created by this tool. (I recommend to use code above)
 
 ##III. Conclusion
