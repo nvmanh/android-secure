@@ -84,14 +84,14 @@ anywhere.
 
 - Encode button: encode your data in properties file above.
 
-###2. Functions
+### 2. Functions
 
 - This tool will be saved last input information (keystore path, password in 
 history.properties..., of course, they are encoded)
 
 - This tool will be work multi-platforms (I hope so): Mac, Windows, Linux
 
-###3. Implement
+### 3. Implement
 
 When you encoded your data, please copy encoded.properties (change the name if
 you want), and all in lib folders to your project (gradle, eclipse...)
@@ -125,7 +125,7 @@ mode, will be debug.keystore) with the flowing android's code:
 
 Or using the hashkey created by this tool. (I recommend to use code above)
 
-##III. Conclusion
+## III. Conclusion
 
 This tool provide you an extra way to project your application. 
 
